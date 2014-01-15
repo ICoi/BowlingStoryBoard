@@ -20,6 +20,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)viewWillAppear:(BOOL)animated{
+   // self.tabBarController.tabBar.frame = CGRectMake(0, 24, 320, 30);
+    
+}
+- (IBAction)back:(id)sender {
+    self.tabBarController.selectedIndex = 0;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

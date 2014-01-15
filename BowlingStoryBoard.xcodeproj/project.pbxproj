@@ -21,6 +21,12 @@
 		00328998188614D700ECD63B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0032897A188614D700ECD63B /* UIKit.framework */; };
 		003289A0188614D700ECD63B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0032899E188614D700ECD63B /* InfoPlist.strings */; };
 		003289A2188614D700ECD63B /* BowlingStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 003289A1188614D700ECD63B /* BowlingStoryBoardTests.m */; };
+		003289B01886151800ECD63B /* bowling.png in Resources */ = {isa = PBXBuildFile; fileRef = 003289AB1886151800ECD63B /* bowling.png */; };
+		003289B11886151800ECD63B /* cat_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 003289AC1886151800ECD63B /* cat_face.png */; };
+		003289B21886151800ECD63B /* koala_face.png in Resources */ = {isa = PBXBuildFile; fileRef = 003289AD1886151800ECD63B /* koala_face.png */; };
+		003289B31886151800ECD63B /* raccoon_face_abstract.png in Resources */ = {isa = PBXBuildFile; fileRef = 003289AE1886151800ECD63B /* raccoon_face_abstract.png */; };
+		003289B41886151800ECD63B /* Red_Book.png in Resources */ = {isa = PBXBuildFile; fileRef = 003289AF1886151800ECD63B /* Red_Book.png */; };
+		00328A391886657900ECD63B /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00328A381886657900ECD63B /* GroupViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		0032899D188614D700ECD63B /* BowlingStoryBoardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BowlingStoryBoardTests-Info.plist"; sourceTree = "<group>"; };
 		0032899F188614D700ECD63B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		003289A1188614D700ECD63B /* BowlingStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BowlingStoryBoardTests.m; sourceTree = "<group>"; };
+		003289AB1886151800ECD63B /* bowling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bowling.png; sourceTree = "<group>"; };
+		003289AC1886151800ECD63B /* cat_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat_face.png; sourceTree = "<group>"; };
+		003289AD1886151800ECD63B /* koala_face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = koala_face.png; sourceTree = "<group>"; };
+		003289AE1886151800ECD63B /* raccoon_face_abstract.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raccoon_face_abstract.png; sourceTree = "<group>"; };
+		003289AF1886151800ECD63B /* Red_Book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_Book.png; sourceTree = "<group>"; };
+		00328A371886657900ECD63B /* GroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupViewController.h; sourceTree = "<group>"; };
+		00328A381886657900ECD63B /* GroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +125,11 @@
 		0032897C188614D700ECD63B /* BowlingStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				003289AB1886151800ECD63B /* bowling.png */,
+				003289AC1886151800ECD63B /* cat_face.png */,
+				003289AD1886151800ECD63B /* koala_face.png */,
+				003289AE1886151800ECD63B /* raccoon_face_abstract.png */,
+				003289AF1886151800ECD63B /* Red_Book.png */,
 				00328985188614D700ECD63B /* AppDelegate.h */,
 				00328986188614D700ECD63B /* AppDelegate.m */,
 				00328988188614D700ECD63B /* Main.storyboard */,
@@ -119,6 +137,8 @@
 				0032898C188614D700ECD63B /* ViewController.m */,
 				0032898E188614D700ECD63B /* Images.xcassets */,
 				0032897D188614D700ECD63B /* Supporting Files */,
+				00328A371886657900ECD63B /* GroupViewController.h */,
+				00328A381886657900ECD63B /* GroupViewController.m */,
 			);
 			path = BowlingStoryBoard;
 			sourceTree = "<group>";
@@ -199,6 +219,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = T;
 				TargetAttributes = {
+					00328972188614D700ECD63B = {
+						DevelopmentTeam = F4FT6M5A89;
+					};
 					00328993188614D700ECD63B = {
 						TestTargetID = 00328972188614D700ECD63B;
 					};
@@ -228,6 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				003289B11886151800ECD63B /* cat_face.png in Resources */,
+				003289B31886151800ECD63B /* raccoon_face_abstract.png in Resources */,
+				003289B21886151800ECD63B /* koala_face.png in Resources */,
+				003289B01886151800ECD63B /* bowling.png in Resources */,
+				003289B41886151800ECD63B /* Red_Book.png in Resources */,
 				0032898F188614D700ECD63B /* Images.xcassets in Resources */,
 				00328981188614D700ECD63B /* InfoPlist.strings in Resources */,
 				0032898A188614D700ECD63B /* Main.storyboard in Resources */,
@@ -249,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00328A391886657900ECD63B /* GroupViewController.m in Sources */,
 				0032898D188614D700ECD63B /* ViewController.m in Sources */,
 				00328987188614D700ECD63B /* AppDelegate.m in Sources */,
 				00328983188614D700ECD63B /* main.m in Sources */,
@@ -378,10 +407,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BowlingStoryBoard/BowlingStoryBoard-Prefix.pch";
 				INFOPLIST_FILE = "BowlingStoryBoard/BowlingStoryBoard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +423,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BowlingStoryBoard/BowlingStoryBoard-Prefix.pch";
 				INFOPLIST_FILE = "BowlingStoryBoard/BowlingStoryBoard-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -460,6 +495,7 @@
 				003289A7188614D700ECD63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		003289A8188614D700ECD63B /* Build configuration list for PBXNativeTarget "BowlingStoryBoardTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +504,7 @@
 				003289AA188614D700ECD63B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
